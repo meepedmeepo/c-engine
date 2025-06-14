@@ -9,19 +9,20 @@ class Renderer{
     public:
     Renderer();
     ~Renderer() {
-        SDL_DestroyRenderer(pRenderer);
+        SDL_DestroyRenderer(mRenderer);
         mScreenSurface = nullptr;
         SDL_DestroyWindow(mWindow);
 
-        pRenderer = NULL;
+        mRenderer = NULL;
         mWindow = NULL;
     }
+    void present();
 
-    SDL_Surface* mScreenSurface;
-    SDL_Window* mWindow;
 
     private:
-    SDL_Renderer* pRenderer;
+    SDL_Renderer* mRenderer;
+    SDL_Surface* mScreenSurface;
+    SDL_Window* mWindow;
 
 };
 
