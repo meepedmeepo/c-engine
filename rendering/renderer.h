@@ -4,6 +4,7 @@
 #include <SDL3/SDL_render.h>
 #include <SDL3/SDL_surface.h>
 #include <SDL3/SDL_video.h>
+#include "sprite.h"
 
 class Renderer{
     public:
@@ -16,7 +17,9 @@ class Renderer{
         mRenderer = NULL;
         mWindow = NULL;
     }
-    void present();
+    void update();
+
+    void renderSprite(Sprite* sprite, float x, float y);
 
 
     private:
