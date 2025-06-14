@@ -9,7 +9,11 @@ CTexture::CTexture(){
 }
 
 CTexture::~CTexture(){
-    if(mTexture){
+    this->Destroy();
+}
+
+void CTexture::Destroy(){
+    if(mTexture != nullptr){
         SDL_DestroyTexture(mTexture);
         mTexture = nullptr;
     }

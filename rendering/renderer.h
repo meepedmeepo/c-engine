@@ -11,7 +11,6 @@ class Renderer{
     Renderer();
     ~Renderer() {
         SDL_DestroyRenderer(mRenderer);
-        mScreenSurface = nullptr;
         SDL_DestroyWindow(mWindow);
 
         mRenderer = NULL;
@@ -24,7 +23,6 @@ class Renderer{
 
     private:
     SDL_Renderer* mRenderer;
-    SDL_Surface* mScreenSurface;
     SDL_Window* mWindow;
 
 };

@@ -25,6 +25,12 @@ class CTexture {
         return mHeight;
     }
 
+    bool isLoaded(){
+        return mTexture != nullptr;
+    }
+
+    void Destroy();
+
     private:
     SDL_Texture* mTexture;
 
