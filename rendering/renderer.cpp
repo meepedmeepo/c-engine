@@ -4,6 +4,7 @@
 #include <SDL3/SDL_render.h>
 #include <SDL3/SDL_video.h>
 #include <cstddef>
+#include "SDL3_image/SDL_image.h"
 
 Renderer::Renderer(){
     mWindow = NULL;
@@ -13,6 +14,8 @@ Renderer::Renderer(){
         SDL_Log("Couldn't create window. SDL_Error: %s \n", SDL_GetError());
         throw "SDL_FUCKING_DIED";
     }
+
+    mRendererClearColor = {0xFF, 0x0, 0x0, 0xFF};
 
 }
 

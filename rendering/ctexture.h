@@ -11,7 +11,7 @@ class CTexture {
     CTexture();
     ~CTexture();
 
-    bool load(int width, int height, std::string path);
+    bool load(SDL_Renderer* renderer, int width, int height, const char* path);
 
     SDL_Texture* getTexture(){
         return mTexture;

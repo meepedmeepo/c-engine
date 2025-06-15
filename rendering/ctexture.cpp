@@ -1,5 +1,6 @@
 #include "ctexture.h"
 #include <SDL3/SDL_render.h>
+#include <SDL3_image/SDL_image.h>
 #include <string>
 
 CTexture::CTexture(){
@@ -20,9 +21,10 @@ void CTexture::Destroy(){
 }
 
 //TODO: install SDL3_Img and complete this function
-bool CTexture::load(int width, int height, std::string path){
+bool CTexture::load(SDL_Renderer* renderer, int width, int height, const char* path){
 
     mWidth = width;
     mHeight = height;
+    mTexture = IMG_LoadTexture(renderer, path);
     return true;
 }
