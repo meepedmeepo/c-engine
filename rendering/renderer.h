@@ -27,6 +27,10 @@ class Renderer{
         return mRenderer;
     }
 
+    SDL_Window* getWindow(){
+        return mWindow;
+    }
+
     void setColor(SDL_Color* col){
         SDL_SetRenderDrawColor(mRenderer, col->r, col->g, col->b, col->a);
     }

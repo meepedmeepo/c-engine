@@ -1,4 +1,5 @@
 #include "renderer.h"
+#include <SDL3/SDL.h>
 #include <SDL3/SDL_error.h>
 #include <SDL3/SDL_oldnames.h>
 #include <SDL3/SDL_render.h>
@@ -15,6 +16,8 @@ Renderer::Renderer(){
         throw "SDL_FUCKING_DIED";
     }
 
+    SDL_SetRenderVSync(mRenderer, 1);
+    
     mRendererClearColor = {0xFF, 0x0, 0x0, 0xFF};
 
 }

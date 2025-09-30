@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build",
+  "command": "/usr/bin/c++  -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3 -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends -std=gnu++20 -o CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/imgui.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/imgui.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/imgui.cpp",
+  "output": "CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/imgui.cpp.o"
+},
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build",
+  "command": "/usr/bin/c++  -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3 -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends -std=gnu++20 -o CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/imgui_draw.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/imgui_draw.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/imgui_draw.cpp",
+  "output": "CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build",
+  "command": "/usr/bin/c++  -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3 -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends -std=gnu++20 -o CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/imgui_tables.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/imgui_tables.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/imgui_tables.cpp",
+  "output": "CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build",
+  "command": "/usr/bin/c++  -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3 -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends -std=gnu++20 -o CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/imgui_widgets.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/imgui_widgets.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/imgui_widgets.cpp",
+  "output": "CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build",
+  "command": "/usr/bin/c++  -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3 -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends -std=gnu++20 -o CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/backends/imgui_impl_sdlrenderer3.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends/imgui_impl_sdlrenderer3.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends/imgui_impl_sdlrenderer3.cpp",
+  "output": "CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/backends/imgui_impl_sdlrenderer3.cpp.o"
+},
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build",
+  "command": "/usr/bin/c++  -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3 -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends -std=gnu++20 -o CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/backends/imgui_impl_sdl3.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends/imgui_impl_sdl3.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends/imgui_impl_sdl3.cpp",
+  "output": "CMakeFiles/imgui.dir/dependencies/imgui-1.92.3/backends/imgui_impl_sdl3.cpp.o"
+},
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build",
+  "command": "/usr/bin/c++  -I/home/cynth/Documents/dev/cpp/c-engine/build -I/home/cynth/Documents/dev/cpp/c-engine/build/rendering -I/home/cynth/Documents/dev/cpp/c-engine/build/engine -I/home/cynth/Documents/dev/cpp/c-engine/build/management -I/home/cynth/Documents/dev/cpp/c-engine/build/ui -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3 -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends  -o CMakeFiles/c_engine.dir/main.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/main.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/main.cpp",
+  "output": "CMakeFiles/c_engine.dir/main.cpp.o"
+},
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build/rendering",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/rendering.dir/renderer.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/rendering/renderer.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/rendering/renderer.cpp",
+  "output": "rendering/CMakeFiles/rendering.dir/renderer.cpp.o"
+},
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build/rendering",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/rendering.dir/ctexture.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/rendering/ctexture.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/rendering/ctexture.cpp",
+  "output": "rendering/CMakeFiles/rendering.dir/ctexture.cpp.o"
+},
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build/rendering",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/rendering.dir/sprite.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/rendering/sprite.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/rendering/sprite.cpp",
+  "output": "rendering/CMakeFiles/rendering.dir/sprite.cpp.o"
+},
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build/management",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/management.dir/texture_manager.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/management/texture_manager.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/management/texture_manager.cpp",
+  "output": "management/CMakeFiles/management.dir/texture_manager.cpp.o"
+},
+{
+  "directory": "/home/cynth/Documents/dev/cpp/c-engine/build/ui",
+  "command": "/usr/bin/c++  -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3 -I/home/cynth/Documents/dev/cpp/c-engine/dependencies/imgui-1.92.3/backends -std=gnu++20 -o CMakeFiles/ui.dir/main_ui.cpp.o -c /home/cynth/Documents/dev/cpp/c-engine/ui/main_ui.cpp",
+  "file": "/home/cynth/Documents/dev/cpp/c-engine/ui/main_ui.cpp",
+  "output": "ui/CMakeFiles/ui.dir/main_ui.cpp.o"
+}
+]
